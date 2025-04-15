@@ -1,0 +1,178 @@
+\documentclass[final,a0paper,portrait]{beamer}
+
+% Pacotes necessários
+\usepackage[scale=1.24]{beamerposter}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{ragged2e}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{setspace}
+% Removido: \usepackage{enumitem}
+
+% Definição de cores ABNT
+\definecolor{azultitulo}{RGB}{0, 70, 150}
+\definecolor{cinzaclaro}{RGB}{240, 240, 240}
+
+% Configuração do modo retrato (A0)
+\geometry{paperwidth=84.1cm, paperheight=118.9cm, margin=2cm}
+
+% Define o tema
+\usetheme{default}
+\usecolortheme{default}
+
+% Removendo elementos desnecessários
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{itemize items}[square]
+
+% Configurações de fonte
+\setbeamerfont{title}{size=\fontsize{80}{84}\selectfont,series=\bfseries}
+\setbeamerfont{subtitle}{size=\fontsize{50}{54}\selectfont}
+\setbeamerfont{author}{size=\fontsize{36}{40}\selectfont}
+\setbeamerfont{institute}{size=\fontsize{30}{34}\selectfont}
+\setbeamerfont{block title}{size=\fontsize{42}{46}\selectfont,series=\bfseries}
+\setbeamerfont{block body}{size=\fontsize{30}{34}\selectfont}
+
+% Estilo dos blocos
+\setbeamertemplate{block begin}{
+  \begin{beamercolorbox}[rounded=true,shadow=true,leftskip=1cm,colsep*=.75ex]{block title}%
+    \usebeamerfont{block title}\insertblocktitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[rounded=true,shadow=true,colsep*=.75ex,sep=1ex,vmode]{block body}%
+    \usebeamerfont{block body}\justifying
+}
+\setbeamertemplate{block end}{
+  \end{beamercolorbox}
+}
+
+% Cores dos blocos
+\setbeamercolor{block title}{bg=azultitulo,fg=white}
+\setbeamercolor{block body}{bg=cinzaclaro,fg=black}
+
+\title{\textcolor{azultitulo}{DINÂMICAS DE PODER E RELACIONAMENTOS FEMININOS \\ EM CARMILLA:\\ UMA ANÁLISE DA CRÍTICA FEMINISTA}}
+
+\author{Jessika Carollyne B Lessa \quad $\bullet$ \quad Lucas Dórea Cardoso \quad $\bullet$ \quad Letícia Alves Guerra \quad $\bullet$ \\
+\vspace{0.3cm}
+Yassanã do Nascimento Silva \quad $\bullet$ \quad Maria Alice Santos da Silva}
+
+\institute{Literatura Inglesa e Norte-Americana (Noturno) \\ Profa. Dra. Dayse Rayane e Silva Muniz \\ Centro Universitário do Distrito Federal (UDF)}
+
+\date{Maio de 2025}
+
+\begin{document}
+\begin{frame}[t]
+\begin{columns}[t]
+\begin{column}{0.98\textwidth}
+\centering
+\vspace{1cm}
+{\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+\vspace{0.8cm}
+{\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}
+\vspace{0.8cm}
+{\usebeamerfont{institute}\usebeamercolor[fg]{institute}\insertinstitute\par}
+\vspace{0.5cm}
+\end{column}
+\end{columns}
+
+\vspace{1cm}
+
+\begin{columns}[t]
+\begin{column}{0.31\textwidth}
+\begin{block}{\centering RESUMO}
+Esta pesquisa analisa as dinâmicas de poder e os relacionamentos femininos na novela gótica ``Carmilla'' (1872) de Joseph Sheridan Le Fanu, sob a perspectiva da crítica feminista e queer. A obra, que antecede ``Drácula'' de Bram Stoker, apresenta uma relação complexa entre Laura, a protagonista, e Carmilla, uma vampira que desafia as normas sociais e de gênero da era vitoriana. Investigamos como Le Fanu utiliza elementos góticos para explorar temas de transgressão, autonomia feminina e desejo proibido, enquanto examina as tensões entre intimidade e perigo nos relacionamentos homossociais femininos.
+
+\vspace{0.5cm}
+\textbf{Palavras-chave:} Literatura Gótica; Crítica Feminista; Homossocialidade Feminina; Transgressão; Identidade.
+\end{block}
+
+\begin{block}{\centering INTRODUÇÃO}
+A novela ``Carmilla'', publicada em 1872 por Joseph Sheridan Le Fanu, representa uma obra seminal para a compreensão das dinâmicas de poder e relacionamentos femininos na literatura vitoriana. Neste estudo, analisamos como a obra de Le Fanu desafia as estruturas patriarcais através da representação de relacionamentos íntimos entre mulheres, em um período marcado por rígidas normas sociais de gênero.
+
+\vspace{0.5cm}
+\textbf{Problema de pesquisa:} Como a relação entre Laura e Carmilla desafia e subverte os padrões de relacionamentos femininos impostos pela sociedade vitoriana, e quais são as implicações dessa transgressão para uma interpretação feminista contemporânea da obra?
+\end{block}
+
+\begin{block}{\centering OBJETIVOS}
+\begin{itemize}
+\item Analisar as representações de poder nas relações femininas em ``Carmilla'';
+\item Identificar elementos de transgressão e subversão das normas patriarcais;
+\item Examinar como o contexto vitoriano influencia a caracterização dos relacionamentos homossociais;
+\item Explorar como a obra antecipa questões relevantes para a crítica feminista e queer contemporânea.
+\end{itemize}
+\end{block}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{block}{\centering CONTEXTO HISTÓRICO E SOCIAL}
+\textbf{Sociedade Vitoriana e Normas de Gênero}
+
+A sociedade vitoriana se caracterizava por uma ordem patriarcal que buscava controlar a sexualidade e autonomia femininas. As mulheres eram confinadas à esfera doméstica e esperava-se que fossem submissas e emocionalmente sensíveis, em contraste com as figuras masculinas retratadas como inteligentes e estáveis. ``Carmilla'' emerge neste contexto como uma obra que desafia essas expectativas sociais, apresentando personagens femininas que transgridem os limites estabelecidos.
+
+\vspace{0.5cm}
+\textbf{Elementos Góticos e Fronteiras Sociais}
+
+Fred Botting observa que narrativas góticas frequentemente exploram ``transgressão e ansiedade sobre limites culturais'', o que se aplica perfeitamente à obra analisada. A ambientação isolada do castelo cercado por florestas densas cria um ambiente que espelha o isolamento social imposto às mulheres da época. Estes elementos góticos funcionam como ferramentas literárias para explorar tensões sociais.
+\end{block}
+
+\begin{block}{\centering ANÁLISE DAS DINÂMICAS DE PODER}
+A relação entre Laura e Carmilla é marcada por uma complexa dinâmica de poder que oscila entre desejo e repulsa, atração e medo. Esta dualidade é representada na própria fala de Carmilla: ``Você vai me achar cruel, muito egoísta, mas o amor é sempre egoísta; quanto mais ardente, mais egoísta''. Esta autoconsciência da personagem complica a compreensão do leitor sobre moralidade e desejo no contexto dos relacionamentos femininos.
+
+\vspace{0.5cm}
+A capacidade de Carmilla de transformar sua identidade através de seus nomes anagramáticos (Millarca e Mircalla) simboliza tanto sua sexualidade transgressora quanto o potencial de as mulheres redefinirem suas identidades fora das limitações patriarcais. Esta fluidez identitária representa uma ameaça às estruturas sociais estabelecidas.
+\end{block}
+\end{column}
+
+\begin{column}{0.31\textwidth}
+\begin{block}{\centering RELACIONAMENTOS FEMININOS}
+% Modificado: Alterado para usar o formato padrão do Beamer sem enumitem
+\begin{enumerate}
+\item \textbf{Subversão das Normas Patriarcais:} As interações de Carmilla com jovens mulheres evidenciam um potencial subversivo dentro dos relacionamentos femininos, desafiando as expectativas tradicionais.
+
+\item \textbf{Homossocialidade Feminina:} Em ``Carmilla'', os vínculos homossociais femininos são retratados como simultaneamente íntimos e perigosos, refletindo a natureza dual do desejo e da vulnerabilidade.
+
+\item \textbf{Perspectivas Queer:} A novela é rica em temas queer, que complicam a representação do amor e do desejo. Amy Leal aponta que os ``desejos inomináveis'' expressos por Carmilla podem ser interpretados como emblemáticos da experiência queer velada do período vitoriano.
+\end{enumerate}
+\end{block}
+
+\begin{block}{\centering CONSIDERAÇÕES FINAIS}
+Esperamos que esta pesquisa contribua para uma compreensão mais profunda de como ``Carmilla'' articula uma crítica às normas de gênero e sexualidade da era vitoriana, oferecendo insights valiosos sobre a representação de relacionamentos femininos na literatura gótica.
+
+\vspace{0.5cm}
+Antecipamos também demonstrar como os elementos góticos servem como ferramentas literárias para explorar ansiedades sociais relacionadas à autonomia feminina e ao desejo não-normativo, expandindo nossa compreensão do gênero gótico como um espaço para crítica social.
+\end{block}
+
+\begin{block}{\centering REFERÊNCIAS}
+\begin{flushleft}
+\footnotesize
+\setstretch{1.2}
+
+BOTTING, Fred. \textbf{Gothic}. 2. ed. London: Routledge, 2014.\\
+
+CREED, Barbara. \textbf{The Monstrous-Feminine: Film, Feminism, Psychoanalysis}. London: Routledge, 1993.\\
+
+GILBERT, Sandra M.; GUBAR, Susan. \textbf{The Madwoman in the Attic}. 2. ed. New Haven: Yale University Press, 2000.\\
+
+LE FANU, Joseph Sheridan. \textbf{Carmilla}. London: Create Space, 2014. [1872]\\
+
+LEAL, Amy. Carmilla and Sapphic Erasure. \textbf{American Gothic: An Edinburgh Companion}, 2017.\\
+
+SIGNOROTTI, Elizabeth. Repossessing the Body: Transgressive Desire in 'Carmilla' and 'Dracula'. \textbf{Criticism}, v. 38, n. 4, p. 607-632, 1996.
+\end{flushleft}
+\end{block}
+
+\begin{center}
+\vspace{0.5cm}
+\textcolor{azultitulo}{\large Centro Universitário do Distrito Federal (UDF) - Maio de 2025}
+\end{center}
+
+\end{column}
+\end{columns}
+\end{frame}
+\end{document}
